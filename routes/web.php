@@ -18,3 +18,7 @@ Route::get('post/create', 'PostController@create');
 // Route::post('post', 'PostController@store');
 
 Route::resource('posts','PostController');
+
+Auth::routes();
+
+Route::get('/dashboard', 'DashboardController@index');
