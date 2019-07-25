@@ -51,7 +51,7 @@
 
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                             <ul class="list-group">
-                                <li class="list-group-item list-group-item-primary"><a href="/dashboard" class="dashboard" id="dash">Dashboard</a><span class="badge badge-primary badge-pill">{{count($posts)}}</span></li>
+                                <li class="list-group-item list-group-item-primary"><a href="/dashboard" class="dashboard" id="dash">Dashboard</a><span class="badge badge-primary badge-pill">1</span></li>
                                 <li class="list-group-item list-group-item-danger"><a class="dropdown-item" href="{{ route('logout') }}"
                                 onclick="event.preventDefault();
                                                 document.getElementById('logout-form').submit();">
