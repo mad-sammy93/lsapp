@@ -5,10 +5,10 @@
     @if(count($posts) > 0)
         @foreach ($posts as $post)
         <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-2 shadow-sm h-md-250 position-relative">
-            <div class="col-md8 col-sm-8 p-4 d-flex flex-column position-static"> 
-            <img style="width:100%" src="/storage/cover_images/{{$post->cover_image}}" alt="">
+            <div class="col-md6 col-sm-4 p-2 d-flex flex-column position-static"> 
+            <img style="width:100%" src="/storage/cover/images/{{$post->cover_image}}" alt="">
             </div>
-            <div class="col-md8 col-sm-8 p-4 d-flex flex-column position-static"> 
+            <div class="col-md6 col-sm-4 p-2  d-flex flex-column position-static"> 
                 <h3><a href="/posts/{{$post->id}}">{{$post->title}}</a></h3>
                 <small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
             </div>
